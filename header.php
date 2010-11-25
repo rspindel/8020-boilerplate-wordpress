@@ -25,7 +25,8 @@
 
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5
 		elements & feature detects -->
-	<script src="<?php bloginfo('stylesheet_directory') ?>/javascripts/libs/modernizr-1.6.min.js"></script>
+	<script src="<?php bloginfo('template_directory') ?>/javascripts/libs/modernizr-1.6.min.js"></script>
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/stylesheets/screen.css?v=1" type="text/css" media="screen, projection" />
 
 	<?php wp_head(); ?>
 </head>
