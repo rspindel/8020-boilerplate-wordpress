@@ -4,7 +4,7 @@
 	</h1>
 	<h2 id="site-description">
 		<?php bloginfo('description'); ?>
-	</h1>
+	</h2>
 </hgroup>
 
 <? wp_nav_menu(array('theme_location' => 'primary',
