@@ -11,7 +11,7 @@ styles and is intended to be used as a parent theme with a separate
 License
 -------
 
-The 80/20 Boilerplate for WordPress is copyright [Janne Asmala][3] 
+The 80/20 Boilerplate for WordPress is copyright [Janne Asmala][3]  
 This work is released under [GNU General Public License, version 2][4] (GPL).
 
   [1]: http://html5boilerplate.com/
