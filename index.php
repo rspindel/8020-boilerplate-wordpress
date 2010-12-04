@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 <header id="site-header">
-	<?php get_template_part('parts/header', 'index' ); ?>
+	<?php get_template_part('parts/branding', 'index' ); ?>
+	<?php get_template_part('parts/navigation', 'index' ); ?>
 </header>
 
 <div id="content">
