@@ -1,5 +1,6 @@
 <?php
 
+require_once('inc/custom-body-class.php');
 require_once('inc/menu-support.php');
 
 /**
