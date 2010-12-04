@@ -1,0 +1,32 @@
+@import "partials/base";
+@import "partials/shared";
+
+@include html5-boilerplate;
+@include html5-boilerplate-fixes;
+@include body-typography;
+
+/* ================ Header ================ */
+
+#site-header {}
+
+	#branding {
+
+		#site-title {}
+
+		#site-description {}
+	}
+
+	#primary-nav {}
+
+/* ================ Content ================ */
+
+#content {}
+
+	.entry-title {}
+	.entry-content {}
+
+/* ================ Footer ================ */
+
+#site-footer {}
+
+	#footer-content {}
