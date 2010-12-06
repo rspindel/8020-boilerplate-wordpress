@@ -1,3 +1,3 @@
 <div id="footer-content" class="text-content">
-	<p>&copy; 2010 <?php bloginfo('name'); ?></p>
+	<?php echo get_option('footer_text'); ?>
 </div>
