@@ -5,7 +5,7 @@
 	<script> DD_belatedPNG.fix('img'); </script>
 <![endif]-->
 
-<?php if (!empty(get_option('analytics_id'))) { ?>
+<?php if (strlen(trim(get_option('analytics_id'))) != 0) { ?>
 	<!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet -->
 	<script>
 		var _gaq = [['_setAccount', '<?php echo get_option('analytics_id'); ?>'], ['_trackPageview']];

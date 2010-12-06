@@ -40,6 +40,6 @@ function etbp_admin() {
 function etbp_setup_admin() {
 	add_theme_page('80/20 Boilerplate Setup', '80/20 Boilerplate', 8, __FILE__, 'etbp_admin');
 }
-add_action('admin_menu', '_setup_admin');
+add_action('admin_menu', 'etbp_setup_admin');
 
 ?>
