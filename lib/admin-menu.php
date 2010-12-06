@@ -14,13 +14,13 @@ function etbp_admin() {
 		<tr valign="top">
 			<th scope="row">Footer text</th>
 			<td>
-				<textarea style="width: 500px; height: 100px;" name="tagline"><?php echo htmlspecialchars(get_option('footer_text')) ?></textarea>
+				<textarea style="width: 500px; height: 100px;" name="footer_text"><?php echo htmlspecialchars(get_option('footer_text')) ?></textarea>
 			</td>
 		</tr>
 		<tr valign="top">
 			<th scope="row">Google Analytics site ID</th>
 			<td>
-				<input type="text" class="text" style="width: 500px;" name="footer_text" value="<?php echo htmlspecialchars(get_option('analytics_id')); ?>" />
+				<input type="text" class="text" style="width: 500px;" name="analytics_id" value="<?php echo htmlspecialchars(get_option('analytics_id')); ?>" />
 			</td>
 		</tr>
 	</table>
