@@ -1,7 +1,7 @@
 <?php
 
-require_once('inc/custom-body-class.php');
-require_once('inc/menu-support.php');
+require_once('lib/custom-body-class.php');
+require_once('lib/menu-support.php');
 
 /**
  * Register widgetized sidebar.
