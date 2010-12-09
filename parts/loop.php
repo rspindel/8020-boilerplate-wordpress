@@ -16,7 +16,7 @@
 			<h1 class="entry-title">
 				<a href="<?php the_permalink(); ?>" class="permalink" rel="bookmark"><?php the_title(); ?></a>
 			</h1>
-			<p class="post-meta">
+			<p class="entry-meta">
 				<?php the_author(); ?> |
 				<?php the_date(); ?> |
 				<?php comments_popup_link(); ?>
