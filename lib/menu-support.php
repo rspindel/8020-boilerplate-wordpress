@@ -12,7 +12,7 @@ function etbp_page_menu_args($args) {
 add_filter('wp_page_menu_args', 'etbp_page_menu_args');
 
 function etbp_nav_menu_args($args) {
-	$args['container'] = 'nav';
+	$args['container'] = 'div';
 	$args['container_class'] = 'menu-container';
 	return $args;
 }

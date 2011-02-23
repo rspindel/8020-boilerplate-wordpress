@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-<header id="site-header">
+<div id="site-header">
 	<?php get_template_part('parts/branding', 'archive' ); ?>
 	<?php get_template_part('parts/navigation', 'archive' ); ?>
-</header>
+</div>
 
 <div id="content">
 	<div id="articles" class="text-content">
@@ -24,8 +24,8 @@
 
 <?php get_sidebar(); ?>
 
-<footer id="site-footer">
+<div id="site-footer">
 	<?php get_template_part('parts/footer', 'archive' ); ?>
-</footer>
+</div>
 
 <?php get_footer(); ?>
