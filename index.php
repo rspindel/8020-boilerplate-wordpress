@@ -6,7 +6,9 @@
 </div>
 
 <div id="content">
-	<?php get_template_part('parts/loop', 'index' ); ?>
+	<div id="articles" class="text-content">
+		<?php get_template_part('parts/loop', 'index' ); ?>
+	</div>
 </div>
 
 <?php get_sidebar(); ?>
