@@ -14,6 +14,9 @@
 	<?php while (have_posts()) : the_post(); ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="entry-header text-content">
+				<?php if (!is_page() && function_exists('fbshare_manual')) { ?>
+					<?php echo fbshare_manual(); ?>
+				<?php } ?>
 				<h1 class="entry-title">
 					<a href="<?php the_permalink(); ?>" class="permalink" rel="bookmark"><?php the_title(); ?></a>
 				</h1>
